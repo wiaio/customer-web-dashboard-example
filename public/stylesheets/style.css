@@ -23,6 +23,7 @@ html, body {
   text-align          : left;
 }
 
+/* If device is active this style is applied */
 .deviceOntrue {
   background-color    : #dff0d8;
   padding             : 20px;
@@ -31,6 +32,7 @@ html, body {
   margin-top          : 30px;
 }
 
+/* If device is not active this style is applied */
 .deviceOnfalse {
   background-color    : #f2dede;
   padding             : 20px;

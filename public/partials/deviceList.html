@@ -1,3 +1,4 @@
+<!-- deviceList.html -->
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -28,8 +29,8 @@
         <div class="panel-body">
           <div class="row">
             <div class="col-sm-12"><h5> No of Devices: {{count}}</h5></br></div>
-            <div data-ng-repeat="device in devices">
-          <!-- Your retrieved devices are injected here -->
+            <div data-ng-repeat="device in devices"><!-- for every device object in the devices scope it will generate the following code and insert into it -->
+            <!-- Your retrieved devices are injected here -->
               <div class="col-sm-3"><a style="text-decoration:none;" href="#/device/{{device.id}}"><div class="deviceOn{{device.isOnline}}"><h4>{{device.name}}</h4></div></a></div>
             </div>
           </div>

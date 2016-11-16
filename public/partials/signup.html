@@ -8,15 +8,15 @@
             <div class="col-sm-10 col-sm-offset-1">
               <form id="signupForm">
                 <div class="form-group">
-                  <input type="text" name="fullname" class="form-control" placeholder="Full Name" ng-model="fullName">
+                  <input type="text" name="fullname" class="form-control" placeholder="Full Name" ng-model="fullName"><!-- binds the user input to the scope variable $scope.fullName -->
                 </div>
                 <div class="form-group">
-                  <input type="email" name="email" class="form-control" placeholder="Email" ng-model="email">
+                  <input type="email" name="email" class="form-control" placeholder="Email" ng-model="email"><!-- binds the user input to the scope variable $scope.email -->
                 </div>
                 <div class="form-group">
-                  <input type="password" name="password" class="form-control" placeholder="Password" ng-model="password">
+                  <input type="password" name="password" class="form-control" placeholder="Password" ng-model="password"><!-- binds the user input to the scope variable $scope.password -->
                 </div>
-                <button type="button" class="btn btn-default" data-ng-click="signupFunction()">Submit</button>
+                <button type="button" class="btn btn-default" data-ng-click="signupFunction()">Submit</button><!-- clicking the button calls the signupFunction in the Signup Controller -->
               </form>
             </div>
           </div>
