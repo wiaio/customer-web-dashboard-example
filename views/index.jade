@@ -1,0 +1,17 @@
+doctype html
+html(lang='en',data-ng-app='customerApp')
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="shortcut icon", href="https://cdn.wia.io/images/favicons/favicon.ico")
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css')
+  body(data-ng-view="", style="padding:0px;")
+        
+    script(src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous")    
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.min.js')    
+    script(src="https://cdn.wia.io/sdk/js/v1/wia.min.js")
+    script(src='/app/app.js')
+    script(src="/app/controllers.js")

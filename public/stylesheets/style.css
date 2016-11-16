@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+
+.device {
+  background-color    : #EEEEEE;
+  border-radius       : 5px;
+  margin              : 20px auto;
+  padding             : 10px;
+  width               : 320px;
+  border              : 1px solid #DDDDDD;
+  text-align          : left;
+}
+
+.deviceOntrue {
+  background-color    : #dff0d8;
+  padding             : 20px;
+  border-radius       : 4px;
+  border              : 1px solid #CEE0C7;
+  margin-top          : 30px;
+}
+
+.deviceOnfalse {
+  background-color    : #f2dede;
+  padding             : 20px;
+  border-radius       : 4px;
+  border              : 1px solid #E1CDCD;
+  text-decoration     : none;
+  color               : #000;
+  margin-top          : 30px
+}
+
+a:hover .deviceOnfalse h4{
+  color               : #000;
+  text-decoration     : none;
+}
